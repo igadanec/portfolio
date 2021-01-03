@@ -2,7 +2,7 @@
   <div class="container" id="aboutme" data-test="secondSection">
     <div class="container__inner">
       <div class="container__inner-left">
-        <img class="avatar" src="~/static/images/me.png" alt="avatar">
+        <img class="avatar" src="~static/images/me.png" alt="avatar">
       </div>
       <div  class="container__inner-right">
       <div class="text-box">

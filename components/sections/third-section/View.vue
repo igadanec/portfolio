@@ -8,19 +8,19 @@
           <div class="grid-items">
             <div class="grid-items__inner">
               <div class="item">
-                <img src="~/static/images/nuxt.png" alt="nuxt">
+                <img src="~static/images/nuxt.png" alt="nuxt">
                 <p>NUXT</p>
               </div>
               <div class="item">
-                <img src="~/static/images/html.png" alt="html">
+                <img src="~static/images/html.png" alt="html">
                 <p>HTML</p>
               </div>
               <div class="item">
-                <img src="~/static/images/css.png" alt="css">
+                <img src="~static/images/css.png" alt="css">
                 <p>CSS</p>
               </div>
               <div class="item">
-                <img src="~/static/images/sass.png" alt="sass">
+                <img src="~static/images/sass.png" alt="sass">
                 <p>SASS</p>
               </div>
             </div>
@@ -31,19 +31,23 @@
           <div class="grid-items">
             <div class="grid-items__inner">
               <div class="item">
-                <img src="~/static/images/git.png" alt="git">
+                <img src="~static/images/git.png" alt="git">
                 <p>GIT</p>
               </div>
               <div class="item">
-                <img src="~/static/images/photoshop.png" alt="photoshop">
+                <img src="~static/images/cypress.png" alt="webstorm">
+                <p>CYPRESS</p>
+              </div>
+              <div class="item">
+                <img src="~static/images/photoshop.png" alt="photoshop">
                 <p>PHOTOSHOP</p>
               </div>
               <div class="item">
-                <img src="~/static/images/adobexd.png" alt="adobexd">
+                <img src="~static/images/adobexd.png" alt="adobexd">
                 <p>ADOBE XD</p>
               </div>
               <div class="item">
-                <img src="~/static/images/webstorm.png" alt="webstorm">
+                <img src="~static/images/webstorm.png" alt="webstorm">
                 <p>WEBSTORM</p>
               </div>
             </div>
@@ -122,7 +126,6 @@
           .grid-items {
             border: 2px solid $primary_color;
             border-radius: 10px;
-            height: calc(100% - 46px);
             &__inner {
               padding: 20px;
               display: grid;

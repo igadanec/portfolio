@@ -5,7 +5,7 @@
       <div class="work-grid">
         <div class="work-grid__item">
           <a class="link" href="http://localhost:3000/">Click here</a>
-          <img src="~/static/images/portfolio-work.png" alt="portfolio">
+          <img src="~static/images/portfolio-work.png" alt="portfolio">
           <p>PORTFOLIO</p>
         </div>
       </div>

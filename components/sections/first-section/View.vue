@@ -5,7 +5,7 @@
         <p class="paragraph">INES GADANEC</p>
         <h1 class="title">FRONTEND DEVELOPER</h1>
       </div>
-        <img class="image" src="~/static/images/portfolio.png" alt="portfolio-img">
+        <img class="image" src="~static/images/portfolio.png" alt="portfolio-img">
     </div>
   </div>
 </template>
