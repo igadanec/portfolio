@@ -4,7 +4,7 @@
       <h1 class="title">RECENT WORK</h1>
       <div class="work-grid">
         <div class="work-grid__item">
-          <nuxt-link class="link" to="/">Click here</nuxt-link>
+          <a class="link" href="http://localhost:3000/">Click here</a>
           <img src="~/static/images/portfolio-work.png" alt="portfolio">
           <p>PORTFOLIO</p>
         </div>

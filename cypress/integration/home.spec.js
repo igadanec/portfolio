@@ -40,26 +40,28 @@ describe('Home page', () => {
         cy.get('[data-test=thirdSection] > .container__inner > .grid-container > .grid-container__right > .grid-items > .grid-items__inner > .item > p')
       })
     })
-      context('Forth seciton',() => {
-        it('forth section should exist',() => {
-          cy.get('[data-test=forthSection]')
-        })
-        it('content should exist',() => {
-          cy.get('[data-test=forthSection] > .container__inner > .title').should('have.text', 'RECENT WORK')
-          cy.url().should('eq', 'http://localhost:3000/')
-          cy.get('[data-test=forthSection] > .container__inner > .work-grid > .work-grid__item > img')
-          cy.get('[data-test=forthSection] > .container__inner > .work-grid > .work-grid__item > p').should('have.text', 'PORTFOLIO')
-        })
-      })
-  context('Fifth seciton',() => {
+  context('Forth section',() => {
+    it('forth section should exist',() => {
+      cy.get('[data-test=forthSection]')
+    })
+    it('content should exist',() => {
+      cy.get('[data-test=forthSection] > .container__inner > .title').should('have.text', 'RECENT WORK')
+      cy.get('[data-test=forthSection] > .container__inner > .work-grid > .work-grid__item > .link').click({ force: true })
+      cy.visit('http://localhost:3000/')
+      cy.get('[data-test=forthSection] > .container__inner > .work-grid > .work-grid__item > img')
+      cy.get('[data-test=forthSection] > .container__inner > .work-grid > .work-grid__item > p').should('have.text', 'PORTFOLIO')
+    })
+  })
+  context('Fifth section',() => {
     it('fifth section should exist',() => {
       cy.get('[data-test=fifthSection]')
     })
-    it('content should exist', () => {
+    it.only('content should exist', () => {
       cy.get('[data-test=fifthSection] > .container__inner > .title').should('have.text','CONTACT ME')
-      cy.get('[data-test=fifthSection] > .container__inner > .form-container > label').should('have.text', 'SubjectMessage')
-      cy.get('[data-test=fifthSection] > .container__inner > .form-container > input').type('Type subject')
-      cy.get('[data-test=fifthSection] > .container__inner > .form-container > textarea').type('Type message')
+      cy.get('[data-test=fifthSection] > .container__inner > .form-container > label:nth-child(1)').should('have.text', 'Subject')
+      cy.get('[data-test=fifthSection] > .container__inner > .form-container > input').type('Test subject')
+      cy.get('[data-test=fifthSection] > .container__inner > .form-container > label:nth-child(3)').should('have.text', 'Message')
+      cy.get('[data-test=fifthSection] > .container__inner > .form-container > textarea').type('Test message')
       cy.get('[data-test=fifthSection] > .container__inner > .form-container > button').click()
     })
   })
