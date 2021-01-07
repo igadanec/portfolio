@@ -8,7 +8,7 @@
       <div class="text-box">
         <h4 class="title">About me</h4>
         <p class="paragraph">
-          My name is Ines, I am 19 years old and I come from Croatia. I finished
+          My name is Ines, and I am from Croatia. I am 19 years old. I finished
           high school, majoring in Computer Technician. In school, I learned the
           basics of HTML, CSS, and JavaScript. I really liked that everything could be done as imagined.
           That’s why I decided to become a Frontend
