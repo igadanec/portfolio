@@ -8,12 +8,10 @@
       <div class="text-box">
         <h4 class="title">About me</h4>
         <p class="paragraph">
-          My name is Ines, and I am from Croatia. I am 19 years old. I finished
-          high school, majoring in Computer Technician. In school, I learned the
-          basics of HTML, CSS, and JavaScript. I really liked that everything could be done as imagined.
-          That’s why I decided to become a Frontend
-          Developer. I do not have work experience and that's why I decided to make a
-          portfolio to show off my skills. I have a great desire to expand my
+          My name is Ines, and I am from Croatia. I finished
+          high school, majoring in Computer Technician.
+          I am skilled in Vue.js, Nuxt.js, Quasar, Cypress (e2e testing), HTML, CSS/SCSS, JavaScript and Linux.
+          I have a great desire to expand my
           knowledge and become successful as a Frontend Developer.
         </p>
       </div>

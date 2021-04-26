@@ -23,6 +23,14 @@
                 <img src="~static/images/sass.png" alt="sass">
                 <p>SASS</p>
               </div>
+              <div class="item">
+                <img src="~static/images/javascript.png" alt="javacript">
+                <p>JS</p>
+              </div>
+              <div class="item">
+                <img src="~static/images/vue.png" alt="vue">
+                <p>VUE</p>
+              </div>
             </div>
           </div>
         </div>
@@ -49,6 +57,14 @@
               <div class="item">
                 <img src="~static/images/webstorm.png" alt="webstorm">
                 <p>WEBSTORM</p>
+              </div>
+              <div class="item">
+                <img src="~static/images/visualstudio.jpg" alt="visualstudio">
+                <p>VISUAL STUDIO</p>
+              </div>
+              <div class="item">
+                <img src="~static/images/linux.jpg" alt="linux">
+                <p>LINUX</p>
               </div>
             </div>
           </div>
@@ -124,7 +140,7 @@
             }
           }
           .grid-items {
-            border: 2px solid $primary_color;
+            border: 3px solid $primary_color;
             border-radius: 10px;
             &__inner {
               padding: 20px;
@@ -139,7 +155,7 @@
                 grid-gap: 40px;
               }
               .item {
-                border: 2px solid $primary_color;
+                border: 3px solid $primary_color;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
