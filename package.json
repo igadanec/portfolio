@@ -19,7 +19,6 @@
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
-    "cypress": "^6.2.0",
     "fibers": "^5.0.0",
     "push-dir": "^0.4.1",
     "sass": "^1.30.0",
