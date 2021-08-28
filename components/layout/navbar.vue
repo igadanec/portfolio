@@ -34,7 +34,7 @@
             >
           </li>
           <li>
-            <a class="btn btn-3 hover-border-1">
+            <a @click="scrollTo('contact-section')" class="btn btn-3 hover-border-1">
               <span>Contact Me</span>
             </a>
           </li>
@@ -77,7 +77,7 @@
               >
             </li>
             <li>
-              <a class="btn btn-3 hover-border-1">
+              <a @click="scrollTo('contact-section')" class="btn btn-3 hover-border-1">
                 <span>Contact Me</span>
               </a>
             </li>
