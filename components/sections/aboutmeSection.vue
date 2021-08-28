@@ -34,9 +34,6 @@
             </p>
           </div>
         </div>
-        <a href="//www.dropbox.com/pri/get/cv.pdf?_download_id=7456723489773875367231487588170841961378397033828429139715735907&_notify_domain=www.dropbox.com&_subject_uid=907200113&w=AAAII3nqrDCiZHzbTGjxiiYsH_uRZptNsMZ_E_yBsyuAFg" class="btn btn-3 hover-border-1">
-          <span>Download CV</span>
-        </a>
       </div>
     </div>
   </div>
