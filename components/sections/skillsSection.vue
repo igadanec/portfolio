@@ -74,7 +74,7 @@
           <span />
           <img src="~static/images/quasar.png" alt="Quasar" />
           <p>Quasar</p>
-          <progressBar :grade="5" />
+          <progressBar :grade="4" />
         </div>
         <div class="skill-box">
           <span />
@@ -92,7 +92,7 @@
           <span />
           <img src="~static/images/bootstrap.png" alt="Bootstrap" />
           <p>Bootstrap</p>
-          <progressBar :grade="4" />
+          <progressBar :grade="5" />
         </div>
         <div class="skill-box">
           <span />
@@ -111,6 +111,42 @@
           <img src="~static/images/figma3.png" alt="Figma" />
           <p>Figma</p>
           <progressBar :grade="4" />
+        </div>
+        <div class="skill-box">
+          <span />
+          <span />
+          <span />
+          <span />
+          <img src="~static/images/vitejs.png" alt="Figma" />
+          <p>ViteJs</p>
+          <progressBar :grade="5" />
+        </div>
+        <div class="skill-box">
+          <span />
+          <span />
+          <span />
+          <span />
+          <img src="~static/images/storybook.png" alt="Figma" />
+          <p>Storybook</p>
+          <progressBar :grade="4" />
+        </div>
+        <div class="skill-box">
+          <span />
+          <span />
+          <span />
+          <span />
+          <img src="~static/images/typescript.png" alt="Figma" />
+          <p>TypeScript</p>
+          <progressBar :grade="3" />
+        </div>
+        <div class="skill-box">
+          <span />
+          <span />
+          <span />
+          <span />
+          <img src="~static/images/tailwind.png" alt="Figma" />
+          <p>Tailwind CSS</p>
+          <progressBar :grade="5" />
         </div>
       </div>
     </div>

@@ -2,34 +2,40 @@
   <div id="aboutme-section" class="container">
     <div class="container__inner">
       <div class="container__inner-left">
-        <img src="@/static/images/me2.jpeg" alt="me" />
+        <img
+          data-aos="fade-up-right"
+          data-aos-duration="800"
+          src="@/static/images/me2.jpg"
+          alt="me"
+        />
+        <div class="container__inner-left-overlay" />
       </div>
       <div class="container__inner-right">
-        <h6>Discover</h6>
-        <h3>About Me</h3>
-        <p class="description">
+        <h6 data-aos="fade-down">Discover</h6>
+        <h3 data-aos="fade-up">About Me</h3>
+        <p data-aos="fade-right" class="description">
           My name is Ines Gadanec. I'm frontend developer based in Vukovar,
-          Croatia, and I'm very passionate and dedicated to my work. I have 1
-          year of experience and ambition to improve my coding skills. I am
-          skilled in Vue.js, Nuxt.js, Quasar, Cypress (e2e testing), HTML,
-          CSS/SCSS and JavaScript. I have a great desire to expand my knowledge
-          and become successful as a Frontend Developer.
+          Croatia, and I'm very passionate and dedicated to my work. I have 2
+          years of work experience and ambition to improve my coding skills. I
+          am skilled in Vue.js, Nuxt.js, TypeScript, Bootstrap, Tailwind, HTML, CSS/SCSS,
+          Quasar, Storybook, Cypress (e2e testing), ViteJs and JavaScript. I have a great desire to
+          expand my knowledge and become successful as a Frontend Developer.
         </p>
-        <div class="grid-box">
+        <div data-aos="zoom-in" class="grid-box">
           <div class="grid-box__left">
             <p>Name: Ines Gadanec</p>
             <p>Email: igadanec10@gmail.com</p>
-            <p>Experience: 1 year</p>
+            <p>Work experience: 2 year</p>
           </div>
           <div class="grid-box__right">
-            <p>Age: 20</p>
+            <p>Age: 21</p>
             <p>Address: Vukovar, Croatia</p>
             <p>
               LinkedIn:
               <a
                 href="https://www.linkedin.com/in/ines-gadanec-390843203/"
                 target="_blank"
-              >Ines Gadanec</a
+                >Ines Gadanec</a
               >
             </p>
           </div>
@@ -39,8 +45,7 @@
   </div>
 </template>
 
-<script>
-</script>
+<script></script>
 
 <style lang="scss" scoped>
 .container {
@@ -83,6 +88,7 @@
       }
     }
     &-left {
+      position: relative;
       width: 30%;
       margin-right: 60px;
       user-select: none;
@@ -104,9 +110,22 @@
         top: -30px;
         right: -30px;
         @media only screen and (max-width: 768px) {
-            position: relative;
           top: 0;
           right: 0;
+        }
+      }
+      &-overlay {
+        position: absolute;
+        top: -30px;
+        right: -30px;
+        bottom: 30px;
+        left: 30px;
+        background-color: rgba(0, 0, 0, 0.2);
+        @media only screen and (max-width: 768px) {
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
         }
       }
     }

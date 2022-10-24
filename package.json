@@ -13,9 +13,11 @@
   },
   "dependencies": {
     "@nuxtjs/style-resources": "^1.0.0",
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
     "nuxt-webfontloader": "^1.1.0",
+    "vue-particles": "^1.0.9",
     "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {

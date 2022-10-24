@@ -1,11 +1,21 @@
 <template>
     <div id="hero-section" class="container">
+      <client-only>
+      <vue-particles
+        color="#ffffff"
+        linesColor="#ffffff"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="false"
+      />
+    </client-only>
         <img class="cover" src="@/static/images/cover.jpg" alt="cover">
         <div class="cover-overlay" />
         <div class="container__inner">
           <div class="container__inner-content">
             <div class="profile-box">
-              <img src="@/static/images/me1.jpeg" alt="me">
+              <img src="@/static/images/me1.jpg" alt="me">
+              <div class="profile-box-overlay" />
             </div>
             <div class="brand">
               <h2>Ines Gadanec</h2>
@@ -24,6 +34,14 @@
 </script>
 
 <style lang="scss" scoped>
+#particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
 .container {
   position: relative;
   height: 100vh;
@@ -64,16 +82,25 @@
     &-content {
       width: 100%;
       .profile-box {
+        position: relative;
         margin: 0 auto;
         width: 150px;
         height: 150px;
         border-radius: 150px;
         overflow: hidden;
+        &-overlay {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(0, 0, 0, 0.2);
+        }
       }
       img {
         display: block;
         width: 100%;
-        transform: translateY(-38px) scale(1.2);
+        transform: translateY(4px) scale(1.1) rotate(19deg);
       }
       .brand {
         position: relative;

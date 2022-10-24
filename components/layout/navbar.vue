@@ -216,7 +216,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 10px 100px;
+    padding: 20px 100px;
     box-sizing: border-box;
     @media only screen and (max-width: 1024px) {
       padding: 10px 20px;
