@@ -1,10 +1,10 @@
 <template>
   <div id="contact-section" class="container">
     <div class="container__inner">
-      <h6 data-aos="zoom-in">Feel Free To</h6>
-      <h3 data-aos="flip-left">Contact Me</h3>
+      <h6>Feel Free To</h6>
+      <h3>Contact Me</h3>
       <div class="container__inner-grid">
-        <form data-aos="fade-down" class="form" @submit.prevent="sendMail">
+        <form class="form" @submit.prevent="sendMail">
           <label for="subject">Subject</label>
           <input
             :class="{ filled: subject }"
